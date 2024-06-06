@@ -34,3 +34,20 @@ class CurrentAccount(Account):
     def __init__(self, balance=0):
         super().__init__(balance)
 
+
+class childrensAccount(Account):
+   def--init--(self, balance=0):
+  super()._ _init_ _(balance)
+
+def deposit(self,):
+    super().deposit(amount)
+    self._balance*=1.007  # 0.7% interest
+
+    def withdrawalnot allowed for chlidren's account!")
+
+
+
+class student(Account):
+    def_ _inti_ _(self, balance=0):
+    super()._ _init_ _(balance)
+
