@@ -1,0 +1,18 @@
+savings_acc = SavingsAccount()
+savings_acc.deposit(100000)
+print("Savings Account Balance:", current_acc.get_balance())
+
+current_acc = CurrentAccount()
+current_acc.deposit(50000)
+current_acc.withdraw(20000)
+print("Current Account Balance:", current_acc.get_balance())
+
+children_acc = ChildrenAccount()
+children_acc.deposit(20000)
+children_acc.withdraw(1000)
+print("Children's Account Balance:", children_acc.get_balance())
+
+student_acc = StudentAccount()
+student_acc.deposit(30000)
+student_acc.withdraw(5000)
+print("Student Account Balance:", student_acc.get_balance())
